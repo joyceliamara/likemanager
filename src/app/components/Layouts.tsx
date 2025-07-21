@@ -2,6 +2,7 @@ import { NavBar } from "./NavBar"
 
 export const Layout = () => {
   return (
-    <NavBar />
-  )
+    <div className="bg-background">
+      <NavBar />
+    </div>)
 }
